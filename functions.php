@@ -1,5 +1,5 @@
 <?php
-//验证码模式1
+//验证码模式1,修改自https://www.jianshu.com/p/90726f7f5dce
 if(!function_exists('verifycode_gen_mode1')){
 function verifycode_gen_mode1($w,$h,$code){
     $img = imagecreate($w, $h);
